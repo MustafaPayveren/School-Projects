@@ -1,0 +1,8 @@
+function enBuyuk=DizininMaksimumunuBul(A)
+enBuyuk=A(1); %Dizinin �lk Eleman� En B�y�k Olsun
+for i=2:length(A) %Ka� Elemanl� Bir Vekt�r Acaba?
+      if A(i)>enBuyuk
+            enBuyuk=A(i);      
+      end
+end
+end
